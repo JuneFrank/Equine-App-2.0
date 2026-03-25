@@ -742,25 +742,3 @@ if ("serviceWorker" in navigator) {
 </script>
 </body>
 </html>
-```
-
-Here's what changed and how it works:
-
-**New 📄 TXT button** — each session card now has a teal TXT button alongside the existing View and Delete buttons.
-
-**Modal viewer** — tapping TXT opens a clean dark modal showing the formatted report text, which looks like this:
-```
-HEAD POSITION MONITOR — SESSION REPORT
-─────────────────────────────────────────
-Date:              3/25/2026, 10:14:00 AM
-Total Session Time:     4m 32s
-Average Head Angle:     95.3°
-
-ZONE BREAKDOWN
-─────────────────────────────────────────
-  Zone              % of Session   Longest Streak
-  Safe   (≤94°)     42.1%          1m 10s
-  Caution (94–97.5°)35.6%          48s
-  Risk   (>97.5°)   22.3%          30s
-─────────────────────────────────────────
-Total Readings:    5440
